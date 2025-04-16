@@ -33,7 +33,7 @@ These features are **not yet implemented** ❌:
 
 2. Start the project:
    ```sh
-   npm start
+   npm run dev
    ```
 
 The app will launch at `http://localhost:3000`.
