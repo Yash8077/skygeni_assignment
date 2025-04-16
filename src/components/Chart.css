@@ -1,0 +1,122 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.dashboard-container {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.tabs {
+  margin-bottom: 10px;
+}
+
+.tab-button {
+  padding: 5px 10px;
+  border: 1px solid #999;
+  background: #ddd;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tab-button.active {
+  background: #bbb;
+}
+
+.charts-container,
+.tables-container {
+  display: block;
+}
+
+.chart-card,
+.table-card {
+  border: 1px solid #999;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chart-title {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.chart-bars {
+  display: block;
+}
+
+.chart-bar-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.stage-label {
+  width: 70px;
+  font-size: 12px;
+}
+
+.bar-background {
+  width: 300px;
+  height: 18px;
+  background: #cccccc;
+  position: relative;
+  margin-right: 10px;
+}
+
+.bar-fill {
+  height: 100%;
+  background: #13ff2f;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bar-value {
+  font-size: 11px;
+  color: white;
+  padding-left: 4px;
+}
+
+.win-rate {
+  font-size: 11px;
+}
+
+.transition-percentage {
+  font-size: 11px;
+  color: #333333;
+  margin-left: 80px;
+}
+
+.pipeline-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.table-header,
+.table-cell {
+  border: 1px solid #999;
+  padding: 5px;
+  background: #f8f8f8;
+}
+
+.lost-header {
+  background: #fdd;
+}
+
+.moved-header {
+  background: #dfd;
+}
+
+.won-row {
+  background: #eee;
+}
